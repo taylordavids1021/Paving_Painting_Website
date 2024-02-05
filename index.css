@@ -1,0 +1,49 @@
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 118.75rem;
+    align-self: center;
+    justify-self: center;
+    opacity: 0.9;
+}
+/* ------------------------------------------------------------ FOOTER ------------------------------------------------------------ */
+.details {
+    margin: auto;
+    align-items: center;
+    justify-items: center;
+    background-color: #2d2827; }
+    .details .fas,
+    .details .fa {
+      margin-right: 0.7rem; 
+}
+.details-name {
+    font-family: "Dosis";
+    font-size: 40px;
+    font-weight: 600;
+    letter-spacing: 1rem;
+    color: #e5e5e5;
+    text-align: left;
+    padding-bottom: 0.8rem;
+    text-transform: uppercase; }
+  
+  .details p {
+    font-family: "Source Sans Pro";
+    font-size: 0.9375rem;
+    color: #999999;
+    text-align: left;
+    line-height: 1.6; }
+    .details p .fas,
+    .details p .fa {
+      color: #999999; }
+  
+  .details p:hover {
+    text-decoration: underline;
+    color: white; }
+  
+  .details-text {
+    font-family: "Source Sans Pro";
+    font-size: 1.125rem;
+    font-weight: bold;
+    color: #e5e5e5;
+    text-align: left;
+    text-transform: uppercase; }
