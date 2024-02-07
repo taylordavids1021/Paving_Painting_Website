@@ -278,7 +278,7 @@
   .text {
     grid-column: 1 / 4;
     grid-row: 4;
-    margin: 0rem 10rem;
+    margin: 1rem 10rem;
   }
   /* ------------------------------------------------------------ FOOTER ------------------------------------------------------------ */
   .details {
@@ -452,7 +452,7 @@
   .text {
     grid-column: 1 / 4;
     grid-row: 4;
-    margin: 0rem 10rem;
+    margin: 1rem 10rem;
   }
   /* ------------------------------------------------------------ FOOTER ------------------------------------------------------------ */
   .details {
@@ -497,6 +497,7 @@
     grid-row-gap: 1rem; 
     justify-items: center;
     margin-bottom: 1rem;
+    margin-right: 1rem;
   }
   .image_insta {
     width: 5rem;
