@@ -59,7 +59,7 @@
   article {
     display: flex;
     flex-direction: column;
-    margin: 0.5rem;
+    margin: 1.5rem;
     border-radius: 3rem;
     padding: 0.5rem;
     background-color: #eef3f9;
@@ -481,6 +481,8 @@
     color: #65686b;
     margin: 1rem;
     text-transform: uppercase; 
+    text-decoration: none;
+    cursor: pointer;
   } 
   .facebook, .insta {
     display: flex;
