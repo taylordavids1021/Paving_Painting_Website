@@ -138,6 +138,10 @@
     flex-direction: row;
     align-items: center;
   }
+  .facebook a, .insta a {
+    text-decoration: none;
+    cursor: pointer;
+  }
   .details img{
     max-width: 20px;
     max-height: 20px;
@@ -214,6 +218,7 @@
   .main_headers {
     text-align: center;
     margin: 0;
+    padding: 1rem 0;
   }
   article {
     display: flex;
@@ -312,6 +317,10 @@
     flex-direction: row;
     align-items: center;
   }
+  .facebook a, .insta a {
+    text-decoration: none;
+    cursor: pointer;
+  }
   .details img{
     max-width: 20px;
     max-height: 20px;
@@ -388,6 +397,7 @@
   .main_headers {
     text-align: center;
     margin: 0;
+    padding: 1rem 0;
   }
   article {
     display: flex;
@@ -397,7 +407,6 @@
     padding: 1rem;
     background-color: #eef3f9;
   }
-  
   #backToTopBtn {
     display: none;
     position: fixed;
@@ -426,9 +435,23 @@
     grid-auto-rows: minmax(1f1, auto);
     text-align: center;
   }
-  section img {
+  section img{
     width: 50%;
     margin: auto;
+    border: 14px solid #f58b39e8;
+    border-radius: 2rem;
+    transition: transform 2s ease; 
+  }
+  section img:hover, section video:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+  }
+  section video {
+    width: 20%;
+    margin: auto;
+    border: 14px solid #f58b39e8;
+    border-radius: 2rem;
+    transition: transform 2s ease; 
   }
   .before {
     grid-column: 1 / 2 ;
