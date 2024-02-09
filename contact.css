@@ -204,9 +204,7 @@
 }
 /*  ------------------------------------------------------------ RESPONSIVENESS FOR LARGE SCREENS ------------------------------------------------------------ */
 @media only screen and (min-width: 1025px) {
-    body , html {
-        margin: 0;
-      }
+  
       h1,h2, h3, h4 {
         font-family: 'Poppins', sans-serif;
       }
@@ -215,6 +213,7 @@
         font-weight: bold;
       }
       body {
+        margin: 0;
         height: 100vh;
         background-image: linear-gradient(to right,rgba(238, 243, 249, 1), rgb(238 243 249 / 82%), rgb(156 181 201 / 62%),rgb(156 181 201 / 89%),rgba(156, 181, 201, 1)), url("assets/afterpic1.jpg");
         background-size: cover;
@@ -255,11 +254,30 @@
       a:active {
         color: white;
       }
+      .contact_grid {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        margin: 5rem 0;
+      }
+      .business_stats{
+        width: auto;
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+        margin: 1rem;
+        border-radius: 2rem;
+        padding: 1.5rem 10rem;
+        background-color: #eef3f9;
+      }
+      .business_details {
+        margin: 0.3rem;
+      }
     /* ------------------------------------------------------------ FOOTER ------------------------------------------------------------ */
   .details {
     display: flex;
     flex-direction: row;
-    margin: auto;
+    margin: 6.3rem 0 0 0rem;
     align-items: center;
     justify-content: space-evenly;
     border-top: 0.2rem solid #65686b;
