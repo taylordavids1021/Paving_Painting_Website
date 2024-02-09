@@ -1,0 +1,315 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Quicksand&family=Raleway:wght@300&family=Roboto:wght@300&display=swap');
+@media only screen and (max-width: 600px) {
+    body , html {
+        margin: 0;
+      }
+      h1,h2, h3, h4 {
+        font-family: 'Poppins', sans-serif;
+      }
+      p, .nav_list_items, .nav_list_items_contact {
+        font-family: 'Raleway', sans-serif;
+        font-weight: bold;
+      }
+      body {
+        height: 100vh;
+        background-image: linear-gradient(to right,rgba(238, 243, 249, 1), rgb(238 243 249 / 82%), rgb(156 181 201 / 62%),rgb(156 181 201 / 89%),rgba(156, 181, 201, 1)), url("assets/afterpic1.jpg");
+        background-size: cover;
+        background-position: bottom;
+        background-repeat: no-repeat;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+      }
+  /* ------------------------------------------------------------ NAVBAR ------------------------------------------------------------ */
+  .navbar_container {
+    display: flex;
+    justify-content: flex-end;
+    margin: 0;
+  }
+  .nav_list_items {
+    list-style-type: none;
+    margin: 0.5rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    background-color: #e6edf4;
+    cursor: pointer;
+  }
+  .nav_list_items_contact {
+    list-style-type: none;
+    margin: 0.5rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    background-color: rgb(248 251 255);
+    cursor: pointer;
+  }
+  .nav_list_links {
+    text-decoration: none;
+  }
+  a {
+    color: black;
+  }
+  a:active {
+    color: white;
+  }
+    /* ------------------------------------------------------------ FOOTER ------------------------------------------------------------ */
+    .details {
+        display: flex;
+        flex-direction:column ;
+        margin: auto;
+        align-items: center;
+        justify-items: center;
+        border-top: 0.2rem solid #65686b;
+        background: linear-gradient(to right,rgba(238, 243, 249, 1), rgb(238 243 249 / 82%), rgb(156 181 201 / 62%),rgb(156 181 201 / 89%),rgba(156, 181, 201, 1));
+      }
+      .details_name {
+        font-family: 'Poppins', sans-serif;    
+        font-size: 1rem;
+        font-weight: 600;
+        letter-spacing: 0.3rem;
+        color: #65686b;
+        text-transform: uppercase; 
+      }
+      .details_text {
+        font-family: 'Raleway', sans-serif;
+        font-size: 1rem;
+        font-weight: bold;
+        color: #65686b;
+        text-transform: uppercase; 
+        margin: 0.5rem;
+      }
+      .facebook, .insta {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+      }
+      .details img{
+        max-width: 20px;
+        max-height: 20px;
+      }
+      .instagram_grid {
+        display: grid;
+        grid-template-columns: repeat(4, 4rem);
+        grid-row-gap: 1rem; 
+        justify-items: center;
+        margin-bottom: 1rem;
+      }
+      .image_insta {
+        width: 5rem;
+        height: 5rem;
+        object-fit: cover; 
+        border: 0.2rem solid #9CB5C9;
+      }
+}
+/* ------------------------------------------------------------ RESPONSIVENESS FOR TABLET ------------------------------------------------------------ */
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+    body , html {
+        margin: 0;
+      }
+      h1,h2, h3, h4 {
+        font-family: 'Poppins', sans-serif;
+      }
+      p, .nav_list_items, .nav_list_items_contact {
+        font-family: 'Raleway', sans-serif;
+        font-weight: bold;
+      }
+      body {
+        height: 100vh;
+        background-image: linear-gradient(to right,rgba(238, 243, 249, 1), rgb(238 243 249 / 82%), rgb(156 181 201 / 62%),rgb(156 181 201 / 89%),rgba(156, 181, 201, 1)), url("assets/afterpic1.jpg");
+        background-size: cover;
+        background-position: bottom;
+        background-repeat: no-repeat;
+      }
+      .navbar_container {
+        display: flex;
+        justify-content: flex-end;
+        margin: 0;
+      }
+      .nav_list_items {
+        list-style-type: none;
+        margin: 1rem;
+        padding: 1rem 2.5rem;
+        border-radius: 1rem;
+        background-color: #e6edf4;
+        cursor: pointer;
+      }
+      .nav_list_items_home {
+        list-style-type: none;
+        margin: 1rem;
+        padding: 1rem 2.5rem;
+        border-radius: 1rem;
+        background-color: rgb(248 251 255);
+        cursor: pointer;
+      }
+      .nav_list_items:hover {
+        background-color:rgb(248 251 255);
+      }
+      .nav_list_links {
+        text-decoration: none;
+      }
+      a {
+        color: black;
+      }
+      a:active {
+        color: white;
+      }
+        /* ------------------------------------------------------------ FOOTER ------------------------------------------------------------ */
+  .details {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    align-items: center;
+    justify-items: center;
+    border-top: 0.2rem solid #65686b;
+    background: linear-gradient(to right,rgba(238, 243, 249, 1), rgb(238 243 249 / 82%), rgb(156 181 201 / 62%),rgb(156 181 201 / 89%),rgba(156, 181, 201, 1));
+  }
+  .details_name {
+    font-family: 'Poppins', sans-serif;    
+    font-size: 1.5rem;
+    font-weight: 600;
+    letter-spacing: 0.5rem;
+    color: #65686b;
+    text-align: left;
+    text-transform: uppercase; 
+  }
+  .details_text {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.125rem;
+    font-weight: bold;
+    color: #65686b;
+    text-transform: uppercase; 
+    margin: 1rem;
+  } 
+  .facebook, .insta {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .details img{
+    max-width: 20px;
+    max-height: 20px;
+  }
+  .instagram_grid {
+    display: grid;
+    grid-template-columns: repeat(4, 4rem);
+    grid-row-gap: 1rem; 
+    justify-items: center;
+    margin-bottom: 1rem;
+  }
+  .image_insta {
+    width: 5rem;
+    height: 5rem;
+    object-fit: cover; 
+    border: 0.2rem solid #9CB5C9;
+  }
+}
+/*  ------------------------------------------------------------ RESPONSIVENESS FOR LARGE SCREENS ------------------------------------------------------------ */
+@media only screen and (min-width: 1025px) {
+    body , html {
+        margin: 0;
+      }
+      h1,h2, h3, h4 {
+        font-family: 'Poppins', sans-serif;
+      }
+      p, .nav_list_items, .nav_list_items_contact {
+        font-family: 'Raleway', sans-serif;
+        font-weight: bold;
+      }
+      body {
+        height: 100vh;
+        background-image: linear-gradient(to right,rgba(238, 243, 249, 1), rgb(238 243 249 / 82%), rgb(156 181 201 / 62%),rgb(156 181 201 / 89%),rgba(156, 181, 201, 1)), url("assets/afterpic1.jpg");
+        background-size: cover;
+        background-position: bottom;
+        background-repeat: no-repeat;
+      }
+      .navbar_container {
+        display: flex;
+        justify-content: flex-end;
+        margin: 0;
+      }
+      .nav_list_items {
+        list-style-type: none;
+        margin: 1rem;
+        padding: 1rem 2.5rem;
+        border-radius: 1rem;
+        background-color: #e6edf4;
+        cursor: pointer;
+      }
+      .nav_list_items_contact {
+        list-style-type: none;
+        margin: 1rem;
+        padding: 1rem 2.5rem;
+        border-radius: 1rem;
+        background-color: rgb(248 251 255);
+        cursor: pointer;
+      }
+      .nav_list_items:hover {
+        background-color:rgb(248 251 255);
+      }
+      .nav_list_links {
+        text-decoration: none;
+      }
+      a {
+        text-decoration: none;
+        color: black;
+      }
+      a:active {
+        color: white;
+      }
+    /* ------------------------------------------------------------ FOOTER ------------------------------------------------------------ */
+  .details {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    align-items: center;
+    justify-content: space-evenly;
+    border-top: 0.2rem solid #65686b;
+    background: linear-gradient(to right,rgba(238, 243, 249, 1), rgb(238 243 249 / 82%), rgb(156 181 201 / 62%),rgb(156 181 201 / 89%),rgba(156, 181, 201, 1));
+  }
+  .details_name {
+    font-family: 'Poppins', sans-serif;    
+    font-size: 1.7rem;
+    font-weight: 600;
+    letter-spacing: 0.6rem;
+    color: #65686b;
+    text-align: left;
+    padding-bottom: 0.8rem;
+    text-transform: uppercase; 
+  }
+  .details_text {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.125rem;
+    font-weight: bold;
+    color: #65686b;
+    margin: 1rem;
+    text-transform: uppercase; 
+    text-decoration: none;
+    cursor: pointer;
+  } 
+  .facebook, .insta {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .details img{
+    max-width: 20px;
+    max-height: 20px;
+  }
+  .instagram_grid {
+    display: grid;
+    grid-template-columns: repeat(4, 4rem);
+    grid-row-gap: 1rem; 
+    justify-items: center;
+    margin-bottom: 1rem;
+    margin-right: 1rem;
+  }
+  .image_insta {
+    width: 5rem;
+    height: 5rem;
+    object-fit: cover; 
+    border: 0.2rem solid #cccccc;
+  }
+  .image_insta:hover {
+    width: 7rem;
+    height: 7rem;
+  }
+}
