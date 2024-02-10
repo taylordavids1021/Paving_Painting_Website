@@ -21,6 +21,18 @@
     justify-content: space-evenly;
   }
   /* ------------------------------------------------------------ NAVBAR ------------------------------------------------------------ */
+  nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .logo {
+    width: 6rem;
+    height: 6rem;
+    border-radius: 2rem;
+    padding: 1rem;
+  }
   .navbar_container {
     display: flex;
     justify-content: flex-end;
@@ -148,6 +160,18 @@
     background-size: cover;
     background-position: bottom;
     background-repeat: no-repeat;
+  }
+  nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .logo {
+    width: 6rem;
+    height: 6rem;
+    border-radius: 2rem;
+    padding: 0.5rem;
   }
   .navbar_container {
     display: flex;
@@ -280,6 +304,18 @@
     background-size: cover;
     background-position: bottom;
     background-repeat: no-repeat;
+  }
+  nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .logo {
+    width: 6rem;
+    height: 6rem;
+    border-radius: 2rem;
+    padding: 1rem;
   }
   .navbar_container {
     display: flex;
