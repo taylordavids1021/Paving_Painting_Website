@@ -32,16 +32,16 @@
   }
   .nav_list_items {
     list-style-type: none;
-    margin: 0.5rem;
-    padding: 1rem;
+    margin: 0.2rem;
+    padding: 0.8rem;
     border-radius: 1rem;
     background-color: #e6edf4;
     cursor: pointer;
   }
   .nav_list_items_home {
     list-style-type: none;
-    margin: 0.5rem;
-    padding: 1rem;
+    margin: 0.2rem;
+    padding: 0.8rem;
     border-radius: 1rem;
     background-color: rgb(248 251 255);
     cursor: pointer;
