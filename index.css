@@ -68,6 +68,7 @@
   .main_headers {
     text-align: center;
     margin: 0;
+    padding-top: 1rem;
   }
   article {
     display: flex;
@@ -121,15 +122,35 @@
     transition: transform 2s ease; 
   }
   section video {
-    width: 15rem;
-    height: 15rem;
-    margin: auto;
+    width: 10rem;
+    height: 10rem;
+    margin: 1rem auto;
     border: 14px solid #f58b39e8;
     border-radius: 2rem;
     transition: transform 2s ease; 
   }
-  .text {
-    margin: 0.5rem 2rem;
+  .less-content {
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    background-color: #eef3f9;
+    border-radius: 3rem;
+    font-size: 0.5rem;
+    padding: 0.1rem 0.8rem;
+    margin: auto 5rem;
+  }
+  .short-description {
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    background-color: #eef3f9;
+    margin: 1rem 2rem;
+    border-radius: 3rem;
+    padding: 1rem;
+  }
+  .long-description{
+    font-size: 0.5rem;
+    margin: 0.5rem 3rem;
     font-family: 'Raleway', sans-serif;
     text-align: left;
   }
@@ -319,7 +340,25 @@
     border-radius: 2rem;
     transition: transform 2s ease; 
   }
-  .text {
+  .less-content {
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    background-color: #eef3f9;
+    border-radius: 3rem;
+    padding: 0.1rem 0.8rem;
+    margin: 1rem 14rem;
+  }
+  .short-description {
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    background-color: #eef3f9;
+    margin: 1rem 2rem;
+    border-radius: 3rem;
+    padding: 1rem;
+  }
+  .long-description {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -350,9 +389,10 @@
     grid-column: 1 / 4;
     grid-row: 3 ;
     font-size: 1.4rem;
-    margin: 0;
+    margin: auto;
   }
-  .text {
+
+  .long-description {
     grid-column: 1 / 4;
     grid-row: 4;
     margin: 1rem 5rem;
@@ -544,7 +584,34 @@
     border-radius: 2rem;
     transition: transform 2s ease; 
   }
-  .text{
+  .long-description {
+    display: none; /* Initially hide the long description */
+  }
+  
+  .more-content,
+  .less-content {
+    cursor: pointer;
+    text-decoration: none;
+  }
+  .less-content {
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    background-color: #eef3f9;
+    border-radius: 3rem;
+    padding: 0.1rem 0.8rem;
+    margin: 1rem 27rem;
+  }
+  .short-description{
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    background-color: #eef3f9;
+    margin: 1rem 2rem;
+    border-radius: 3rem;
+    padding: 1rem;
+  }
+  .long-description{
     font-family: 'Raleway', sans-serif;
     display: flex;
     flex-direction: row;
@@ -575,15 +642,15 @@
     grid-column: 1 / 4;
     grid-row: 3 ;
     font-size: 1.4rem;
-    margin: 0;
+    margin: auto;
   }
-  .text {
+  .long-description {
     grid-column: 1 / 4;
     grid-row: 4;
     margin: 1rem 10rem;
     text-align: left;
-    font-weight: bolder;
-    line-height: 1.5rem;
+    font-weight: 500;
+    line-height: 1.8rem;
   }
   /* ------------------------------------------------------------ FOOTER ------------------------------------------------------------ */
   .details {
