@@ -17,3 +17,29 @@ function topFunction() {
     window.scrollTo(0, scrollTop - scrollTop / 8); // Scroll a fraction of the distance
   }
 }
+
+// Read More function
+
+// document.addEventListener('DOMContentLoaded', function() {
+//   const moreContent = document.querySelector('.more-content');
+//   const lessContent = document.querySelector('.less-content');
+//   const shortDescription = document.querySelector('.short-description');
+//   const longDescription = document.querySelector('.long-description');
+
+//   // Hide "Read Less" button initially
+//   lessContent.style.display = 'none';
+
+//   // Show long description and "Read Less" button when "Read More" is clicked
+//   moreContent.addEventListener('click', function() {
+//     shortDescription.style.display = 'none';
+//     longDescription.style.display = 'block';
+//     lessContent.style.display = 'inline'; // Show "Read Less" button
+//   });
+
+//   // Hide long description and "Read Less" button when "Read Less" is clicked
+//   lessContent.addEventListener('click', function() {
+//     shortDescription.style.display = 'block';
+//     longDescription.style.display = 'none';
+//     lessContent.style.display = 'none'; // Hide "Read Less" button
+//   });
+// });
