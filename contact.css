@@ -76,7 +76,7 @@
     display: flex;
     flex-direction: column;
     justify-items: center;
-    margin: 1.7rem 0.5rem;
+    margin: 1.75rem 0.5rem;
     border-radius: 2rem;
     padding: 0.1rem 1rem;
     background-color: #eef3f9;
@@ -85,6 +85,7 @@
     margin: 0.3rem;
   }
   .business_stats p {
+    font-size: 0.8rem;
     display: flex;
     flex-direction: row;
     justify-self: center;
@@ -387,7 +388,7 @@
   .details {
     display: flex;
     flex-direction: row;
-    margin: 5.5rem 0 0 0rem;
+    margin: 5.3rem 0 0 0rem;
     align-items: center;
     justify-content: space-evenly;
     border-top: 0.2rem solid #65686b;
